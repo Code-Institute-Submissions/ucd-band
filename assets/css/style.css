@@ -267,20 +267,47 @@ td {
 }
 
 
+/* Gallery */
+div .desc {
+    padding: 15px;
+    text-align: center;
+}
+
+div .gallery {
+    border: 1px solid #676767;
+}
+
+div .gallery:hover {
+    border: 1px solid #e84610;
+}
+
+div .gallery img {
+    height: auto;
+    width: 100%;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.responsive {
+    padding: 4px 10px;
+    float: left;
+    width: 20%;
+}
+
 /* Media Queries */
 
-@media (min-width: 992px) {
-    .section-column {
-        padding: 0 30px 30px;
-        float: none;
-        display: table-cell;
+@media only screen and (min-width: 201px) and (max-width: 700px)
+{
+    .responsive {
+        width: 80%;
+        margin: 6px 0;
     }
-    
-    .center-form {
-    padding-top: 30px;
-    min-height: 240px;
-    margin: 0 auto;
-    max-width: 50%;
 }
-    
-}
+   
