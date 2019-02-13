@@ -44,7 +44,7 @@
 }
 
 
-.bg-color-personal-info {
+.bg-color-welcome {
     background-color: #f4f4f4;
 }
 
@@ -193,14 +193,14 @@ footer {
     margin: 0;
 }
 
-footer .cv-pdf {
+footer .events-pdf {
     color: #fafafa;
     text-align: center;
     font-size: 18px;
     padding-left: 5px;
 }
 
-footer .cv-pdf i:hover {
+footer .events-pdf i:hover {
     color: #e84610;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -238,54 +238,18 @@ footer .cv-pdf i:hover {
     margin: 20px;
 }
 
-/* Three Reasons */
 
-.three-reasons-icons {
-    font-size: 26px;
-    color: #e67e22;
-}
 
-.three-reasons-heading {
-    margin-bottom: 15px;
-}
+/* Welcome */
 
-/* Personal Info */
-
-.personal-info-item {
+.welcome-item {
     margin-bottom: 20px;
     display: block;
     clear: both;
+    padding: 8px;
 }
 
 
-
-.personal-info-item .key, .personal-info-item .value {
-    padding-right: 8px;
-}
-
-.personal-info-item .key p, .personal-info-item .value p {
-    margin: 0;
-}
-
-.personal-info-item .key {
-    display: inline-block;
-    width: 30%;
-    margin-right: 21px;
-    padding-top: 2px;
-    vertical-align: top;
-}
-
-.personal-info-item .key p {
-    font-family: "Roboto", Arial, Verdana, sans-serif;
-    font-weight: 700;
-    
-}
-
-.personal-info-item .value {
-    display: inline-block;
-    position: relative;
-    width: 60%;
-}
 
 /* Skills */
 
