@@ -18,7 +18,7 @@
    
    Horizontal Rules (1 px solid black) according to Album, Band and Covers.
    
-   Media Queries were applied according to the width of the browser (80% width for screens between 201px and 700px), otherwise 20% width.
+   Media Queries were applied according to the width of the browser.
    
    Ideas in wwww.w3schools.com (CSS - Image Gallery - Responsive Image).  Accessed on 13 February 2019.
    
@@ -26,7 +26,8 @@
    
    Ideas from wwww.w3schools.com (Bootstrap - Bootstrap Tutorial - BS Tables - Responsive Table).  Accessed on 13 February 2019.
    
-   There is also a PDF File of Events to Download for a full details of events.  The events  
+   There is also a PDF File of Events to Download for a full details of events.  The event fields are date, event description and venue.
+   The event description includes Christmas Parties, Weddings and Balls.  Venues include hotels, pubs or anything licenced for music.
    
    Fonts - Roboto and Exo were imported from fonts.google.com.
    
