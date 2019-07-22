@@ -1,15 +1,19 @@
 # User Centric Development (Band)
    
 The aim of this project is to provide a website for The Monkees, which was a 1960s Rock Band.
-This includes news, events and the gallery.
+This includes news, events and the gallery.  Links to Social Media (Facebook, Twitter and YouTube) are provided on every page.
 
 ## UX
 
-As a user, I want to be able to view the upcoming events as well as downloading the event schedule (event-schedule.pdf)
+Users can be individuals who want to show an interest of The Monkees.  They are able to view the upcoming events in a table
+or they can download a full schedule of events in the form of a PDF File.  Once it has been downloaded, it can be printed out.
 
-I want to view the latest news.
+They are able to view the news as well as the images.
 
-Wireframes are supplied in the wireframes folder.  Each image has the desktop version and mobile version.
+They can visit the Facebook Pages, Twitter Pages and YouTube Channel without leaving The Monkees website.
+
+Wireframes are supplied in the wireframes folder.  Files are index.png, news.png, gallery.png and events.png.  Every file has
+the desktop and mobile versions.
 
 ## Technologies
 
@@ -27,9 +31,9 @@ Wireframes are supplied in the wireframes folder.  Each image has the desktop ve
 
 ## Testing
 
-All external links will open in a new tab using target="_blank".
+All external links (e.g. Facebook) will open in a new tab using target="_blank".
 When the image was clicked, the full size of the image was on another tab.
-Resize the width of the browser window to 
+Resize the width of the browser window to see the responsiveness of the images.
 
 Ensure all links have been manually tested to ensure that they are pointing to the correct destination.
 
@@ -38,10 +42,7 @@ Make sure the videos and audios were run as intended.  If the browser did not su
 
 ## Deployment
 
-This site is hosted using GitHub pages, directly from the master branch.  In the terminal window, use the command
-
-   git push
-   
+This site is hosted using GitHub pages, directly from the master branch.  In the terminal window, use the command git push 
 to update the deployed site.
 
 ## Credits
@@ -62,9 +63,10 @@ Images (e.g. calendar for events) taken from https://fontawesome.com/v4.7.0/icon
    
 ### Media
 
-Videos and Audios 
+Videos, Images and Audio in the assets folder were supplied from the Code Institute GitHub Repository.
+https://github.com/Code-Institute-Org/project-assets
 
-### Acknowledgement
+### Acknowledgements
 
-Mentor - Oluwaseun Owonikoko
+Mentor - Oluwaseun Owonikoku
    
