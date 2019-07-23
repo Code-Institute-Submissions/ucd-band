@@ -32,8 +32,6 @@ body {
 }
 
 
-
-
 /* Special Padding/Margins/Text */
 
 h1, h2, h3, h4 {
@@ -65,9 +63,26 @@ h1, h2, h3, h4 {
     margin-bottom: 40px;
 }
 
+/* Download PDF Styles */
+
+.events-pdf {
+    color: green;
+    text-align: center;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+.events-pdf i:hover {
+    color: purple;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
 
 
 /* Footer */
+
 footer {
     background-color: #525252;
     color: #fafafa;
@@ -75,20 +90,7 @@ footer {
     margin: 0;
 }
 
-footer .events-pdf {
-    color: #fafafa;
-    text-align: center;
-    font-size: 18px;
-    padding-left: 5px;
-}
 
-footer .events-pdf i:hover {
-    color: #e84610;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
 
 .social-links {
     padding-bottom: 15px;
@@ -148,32 +150,21 @@ footer .events-pdf i:hover {
 .news-description {
     font-family: "Roboto", Arial, Verdana, sans-serif;
     font-weight: 400;
-    color: #fafafa;
 }
 
 /* Audio */
 .audio-description {
     font-family: "Roboto", Arial, Verdana, sans-serif;
     font-weight: 400;
-    color: #ffffff;
 }
 
 
 
 
-/* Table */
-thead {
-    background-color: #3498db;
-    font-family: "Roboto", Arial, Verdana, sans-serif;
-    font-weight: 700;
-    padding: 6px 4px 5px 3px;
-    text-align: left;
-}
+/* Table Styles */
 
-td {
-    font-family: "Roboto", Arial, Verdana, sans-serif;
-    font-weight: 400;
-    padding: 6px 4px 5px 3px;
+th {
+    background-color: lightblue;
 }
 
 
