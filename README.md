@@ -10,10 +10,13 @@ or they can download a full schedule of events in the form of a PDF File.  Once 
 
 They are able to view the news as well as the images.
 
-They can visit the Facebook Pages, Twitter Pages and YouTube Channel without leaving The Monkees website.
+They can visit the Facebook Pages, Twitter Pages and YouTube Channel without leaving The Monkees website.  When the user has hovered on the social link,
+a tooltip (e.g. YouTube) is displayed to let the browser know that he/she has hovered over the social link.
 
 Wireframes are supplied in the wireframes folder.  Files are index.png, news.png, gallery.png and events.png.  Every file has
 the desktop and mobile versions.
+
+Information Architecture is supplied in the documentation folder.  The file is information-architecture.pdf.  A tree structure is provided.
 
 ## Technologies
 
@@ -42,8 +45,17 @@ Make sure the videos and audios were run as intended.  If the browser did not su
 
 ## Deployment
 
-This site is hosted using GitHub pages, directly from the master branch.  In the terminal window, use the command git push 
-to update the deployed site.
+This site is hosted using GitHub pages, directly from the master branch.  Check the status by entering the command
+
+    git status
+
+in the terminal window.  If there 
+
+To update any changes from the deployed site, use the command
+
+    git push
+
+to update the changes.  You will be required to enter the username and password.
 
 ## Credits
 
