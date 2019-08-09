@@ -22,7 +22,7 @@ Information Architecture is supplied in the documentation folder.  The file is i
 
 * HTML5
 * CSS
-* Bootstrap 3.3.7
+* Bootstrap 4.3.1
 
 ## Features
 
