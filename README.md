@@ -36,7 +36,7 @@ Information Architecture is supplied in the documentation folder.  The file is i
 
 All external links (e.g. Facebook) will open in a new tab using target="_blank".
 When the image was clicked, the full size of the image was on another tab.
-Resize the width of the browser window to see the responsiveness of the images.
+Resize the width of the browser window to see the responsiveness of the images and tables.
 
 Ensure all links have been manually tested to ensure that they are pointing to the correct destination.
 
@@ -49,9 +49,7 @@ This site is hosted using GitHub pages, directly from the master branch.  Check 
 
     git status
 
-in the terminal window.  If there 
-
-To update any changes from the deployed site, use the command
+in the terminal window.  If the branch is ahead of origin/master, use the command
 
     git push
 
@@ -67,9 +65,12 @@ Information on Social Media links - Facebook and Twitter were taken from
    
    https://www.youtube.com/user/themonkees
    
-Went to www.w3schools.com for Assistance on Responsive Tables, Video (HTML5), Audio (HTML5) and Image Gallery
+Went to www.w3schools.com for Information on Bootstrap 4, Responsive Tables, Video (HTML5), Audio (HTML5) and Image Gallery
 
 Fonts - Roboto and Exo were imported from fonts.google.com.
+
+Visited https://www.findagrave.com/memorial/197009666/peter-tork to get the Information on the death of Peter Tork.  This website was
+last accessed on 6 August 2019.
    
 Images (e.g. calendar for events) taken from https://fontawesome.com/v4.7.0/icons/
    
