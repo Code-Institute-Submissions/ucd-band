@@ -5,28 +5,35 @@
     <!-- Display Title in the Browser Window -->
     <title>The Monkees - News Page</title>
     <!-- Load Style Sheets -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     
 </head>
 <body>
-  <!-- Set Up Navigation -->
-  <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <!-- Logo -->
-            <div class="navbar-header">
-                <a href="index.html" class="navbar-brand" title="The Monkees">The Monkees</a>
-            </div>
+ <!-- Set Up Navigation -->
+  <nav class="navbar navbar-light bg-light navbar-expand-sm fixed-top">
+        
+            <!-- Set Up Brand -->
+            <a href="index.html" class="navbar-brand" title="The Monkees">The Monkees</a>
 
-            <!-- navbar with icons -->
-            <ul class="nav navbar-nav">
-                <li><a href="index.html">Home <i class="fa fa-home" aria-hidden="true"></i></a></li>
-                <li><a href="gallery.html">Gallery <i class="fa fa-picture-o" aria-hidden="true"></i></a></li>
-                <li class="active"><a href="news.html">News <i class="fa fa-newspaper-o" aria-hidden="true"></i></a></li>
-                <li><a href="events.html">Events <i class="fa fa-calendar" aria-hidden="true"></i></a></li>
-            </ul>
-        </div>    
+            <!-- Set Up Navbar Toggler -->
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+            <!-- Set Up Navbar Links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Set Up Navbar with Icons -->
+                <ul class="navbar-nav mr-auto">
+                
+                    <li class="nav-item mr-2"><a class="nav-link" href="index.html">Home <i class="fa fa-home" aria-hidden="true"></i></a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" a href="gallery.html">Gallery <i class="fa fa-picture-o" aria-hidden="true"></i></a></li>
+                    <li class="active nav-item mr-2"><a class="nav-link" a href="news.html">News <i class="fa fa-newspaper-o" aria-hidden="true"></i></a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="events.html">Events <i class="fa fa-calendar" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+         
  </nav>
         
     <section class="container-fluid">
@@ -85,9 +92,11 @@
             </div>
         </section>
    
+    <!-- Provide footer details -->
     <footer class="container-fluid">
-        <div class="row" id="footer-details">
-            <div class="col-sm-4">
+        <div class="row">
+            <!-- Provide Information about The Monkees -->
+            <div class="col-xs-12 col-sm-4 mt-2">
                 <h5 class="uppercase general-sub">About Us</h5>
                 <p class="inline-block">
                     The Monkees are a 1960s rock band and have over 50 years experience
@@ -95,13 +104,13 @@
                 </p>
             </div>
             
-            
-            <div class="col-sm-8">
+            <!-- Provide Social Links (e.g. YouTube) --> 
+            <div class="col-xs-12 col-sm-8 mt-2">
                 <h5 class="uppercase general-sub">Our Social</h5>
                 <ul class="list-inline social-links">
-                    <li><a target="_blank" href="https://www.facebook.com/TheMonkees" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                    <li><a target="_blank" href="https://twitter.com/monkeesofficial" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                    <li><a target="_blank" href="https://www.youtube.com/user/themonkees" title="YouTube"><i class="fa fa-youtube"></i></a></li>
+                    <li class="list-inline-item"><a target="_blank" href="https://www.facebook.com/TheMonkees" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a target="_blank" href="https://twitter.com/monkeesofficial" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a target="_blank" href="https://www.youtube.com/user/themonkees" title="YouTube"><i class="fa fa-youtube"></i></a></li>
                 </ul>
 
             </div>
