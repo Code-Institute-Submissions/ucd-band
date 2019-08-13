@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Display Title in the Browser Window -->
+    <!-- Provide Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Provide Title Page for Browser -->
     <title>The Monkees - News Page</title>
     <!-- Load Style Sheets -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -37,33 +40,22 @@
  </nav>
         
     <section class="container-fluid">
-            <div class="row row-table">
-                <div class="col-xs-12 col-sm-12 col-md-4">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <h3 class="section-heading uppercase">Latest News</h3>
-                        </div>
-                    </div>
-                    <div class="news-item">
-                        <p class="news-description">The Monkees will be attending the New Trains Roadshow
-                        at Fenland DC Offices, County Road, March, Cambridgeshire
-                        on 6 March 2019.</p>
-                        <p class="news-description">The Monkees visited Manea School on 4 February 2019.
-                        They played Last Train To Clarksville, Daydream Believer, I'm A Believer and Stepping Stone during School Assembly.</p>
-                        </div>
-                    </div>
-                <div class="col-xs-12 col-sm-12 col-md-8 bg-color-audio section-column">
-                    <div class="row">
+            <div class="row">
+                
+                <div class="col-xs-12 col-sm-12 col-md-6 bg-color-audio section-column">
+                    
                         <div class="col-sm-12">
                             <h3 class="section-heading uppercase">Audio</h3>
                         </div>
                         
-                        <!-- Audio -->
+                        <!-- Display Audio or Error Message for Last Train to Clarksville -->
                         <p class="audio-description">Last Train To Clarksville</p>
                         <audio controls>
                             <source src="assets/audio/Clarksville.mp3" type="audio/mpeg">
                             Your browser does not support the audio tag
                         </audio>
+                        
+                        <!-- Display Audio or Error Message for Daydream Believer -->
                         
                         <p class="audio-description">Daydream Believer</p>
                         <audio controls>
@@ -71,21 +63,36 @@
                             Your browser does not support the audio tag
                         </audio>
                         
+                        <!-- Display Audio or Error Message for I'm A Believer -->
+                        
                         <p class="audio-description">I'm A Believer</p>
                         <audio controls>
                             <source src="assets/audio/ImABeliever.mp3" type="audio/mpeg">
                             Your browser does not support the audio tag
                         </audio>
                         
+                        <!-- Display Audio or Error Message for Stepping Stone -->
+                        
                         <p class="audio-description">Stepping Stone</p>
                         <audio controls>
                             <source src="assets/audio/SteppingStone.mp3" type="audio/mpeg">
                             Your browser does not support the audio tag
                         </audio>
-                    </div>
+                    
                     
                    </div>   
-                      
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h3 class="section-heading uppercase">Latest News</h3>
+                        </div>
+                    </div>
+                    <!-- Set Up News Items -->
+                    <div class="news-item">
+                        <p class="news-description">The Monkees visited Manea School on 15 July 2019.
+                        They played Last Train To Clarksville, Daydream Believer, I'm A Believer and Stepping Stone during School Assembly.</p>
+                        </div>
+                    </div>      
                     
                 
                         
