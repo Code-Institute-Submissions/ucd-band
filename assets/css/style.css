@@ -50,10 +50,6 @@ h1, h2, h3, h4 {
     display: inline-block;
 }
 
-.row-table {
-    display: table;
-}
-
 .section-heading {
     font-family: "Exo", Arial, Verdana, sans-serif;
     font-weight: 300;
@@ -63,14 +59,14 @@ h1, h2, h3, h4 {
 
 /* Download PDF Styles */
 
-.events-pdf {
+.download-pdf {
     color: green;
     text-align: center;
     font-size: 18px;
     padding-left: 5px;
 }
 
-.events-pdf i:hover {
+.download-pdf i:hover {
     color: purple;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
