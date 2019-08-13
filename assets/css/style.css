@@ -67,6 +67,21 @@ h1, h2, h3, h4 {
     -o-transition: all 0.35s ease-in-out;
 }
 
+/* Links */
+a {
+    color: green;
+    text-decoration: none;
+    margin-left: 10px
+}
+
+a:hover {
+    color: purple;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+
+
 
 /* Footer */
 
