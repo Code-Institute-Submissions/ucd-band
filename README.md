@@ -6,9 +6,11 @@ This includes news, events and the gallery.  Links to Social Media (Facebook, Tw
 ## UX
 
 Users can be individuals who want to show an interest of The Monkees.  They are able to view the upcoming events in a table
-or they can download a full schedule of events in the form of a PDF File.  Once it has been downloaded, it can be printed out.
+or they can download a full schedule of events in the form of a PDF File (event-schedule.pdf).  Once it has been downloaded, it can be printed out.
 
-They are able to view the news as well as the images.
+They are able to view the news as well as the images.  If the user wants previous news, they can download the news archives (news-archives.pdf).
+
+The Gallery Page has anchor links so that they can return to the top of the page.
 
 They can visit the Facebook Pages, Twitter Pages and YouTube Channel without leaving The Monkees website.  When the user has hovered on the social link,
 a tooltip (e.g. YouTube) is displayed to let the browser know that he/she has hovered over the social link.
@@ -38,7 +40,7 @@ All external links (e.g. Facebook) will open in a new tab using target="_blank".
 When the image was clicked, the full size of the image was on another tab.
 Resize the width of the browser window to see the responsiveness of the images and tables.
 
-Ensure all links have been manually tested to ensure that they are pointing to the correct destination.
+Ensure all links have been manually tested to ensure that they are pointing to the correct destination.  This include anchor links.
 
 Make sure the videos and audios were run as intended.  If the browser did not support video or audio, display the message
 'Your browser does not support video or audio tag'.
